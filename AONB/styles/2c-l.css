@@ -1,0 +1,41 @@
+/*
+LAYOUT: Two-Column (Left)
+DESCRIPTION: Two-column fluid layout with one sidebars left of content
+*/
+
+#wrapper {
+	margin: 0 auto;
+	width: 940px;
+	background: #fff url(../images/blanc_bg_240.png) repeat-y 0;
+	border-right: 20px solid #e5dbb8;
+}
+#container {
+	float: right;
+	margin: 0 0 0 -240px;
+	width: 100%;
+}
+#content {
+	margin: 0 0 0 240px;
+	padding: 0 0 20px 0;
+	background: #fff;
+}
+#sidebar-wrapper {
+	background: #e5dbb8 url(http:tonk.org/AONB/img/x.png) no-repeat;
+	width: 240px;
+	padding: 260px 0 0 0; /* to space widgets from top */
+}
+#primary, #secondary {
+	float: left;
+	overflow: hidden;
+	width: 240px;
+}
+#primary {
+	margin: 10px auto;
+}
+#secondary {
+	clear: left;
+}
+#footer {
+	clear: both;
+	width: 100%;
+}

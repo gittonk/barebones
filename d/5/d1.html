@@ -1,0 +1,56 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+
+function flash()
+{
+var colors=new Array('#FF0000','#FFFF00','#00FFFF','#00FF00','#FF00FF','#0000FF');
+var ran=Math.floor(Math.random()*colors.length);
+var newcolor=colors[ran];
+document.bgColor=newcolor;
+setTimeout('flash();',128);
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+
+self.focus();
+
+var frames=new Array('diamond0.html','diamond1.html');
+
+function go()
+{
+var ranA=Math.round(Math.random()*1);
+var ranB=Math.round(Math.random()*1);
+parent.frames[1].location.href=frames[ranA];
+parent.frames[3].location.href=frames[ranB];
+parent.frames[5].location.href=frames[ranA];
+parent.frames[7].location.href=frames[ranB];
+parent.frames[9].location.href=frames[ranB];
+}
+
+
+//-->
+</script>
+</head>
+<body marginwidth="0" marginheight="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" onload="flash();">
+<!--
+
+<div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+<img src="../../img/D2BvJMPNK.gif" alt="" width=434 height=760 border=0>
+</div>
+
+-->
+
+<div style="position: absolute; left: 0px; top: 0px; z-index: 1;">
+<a href="#" onclick="go(); return false;"><img src="../images/diamondB.gif" width=1024 height=768 border=0 alt=""></a>
+</div>
+
+
+
+</body>
+</html>

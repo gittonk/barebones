@@ -1,0 +1,45 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+
+function flash()
+{
+var colors=new Array('red','yellow','pink','green','orange','purple','blue');
+var ran=Math.round(Math.random()*6);
+var newcolor=colors[ran];
+document.bgColor=newcolor;
+setTimeout('flash();',111);
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+
+self.focus();
+
+var frames=new Array('diamond0.html','diamond1.html');
+
+function go()
+{
+var ranA=Math.round(Math.random()*1);
+var ranB=Math.round(Math.random()*1);
+parent.frames[1].location.href=frames[ranA];
+parent.frames[3].location.href=frames[ranB];
+parent.frames[5].location.href=frames[ranA];
+parent.frames[7].location.href=frames[ranB];
+parent.frames[9].location.href=frames[ranB];
+}
+
+
+//-->
+</script>
+</head>
+<body marginwidth="0" marginheight="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" onload="flash();">
+<a href="#" onclick="go(); return false;"><img src="../images/diamondA.gif" width=1024 height=768 border=0 alt=""></a>
+</body>
+</html>
+
+

@@ -1,0 +1,21 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+
+function flash()
+{
+var colors=new Array('red','yellow','pink','green','orange','purple','blue');
+var ran=Math.round(Math.random()*6);
+var newcolor=colors[ran];
+document.bgColor=newcolor;
+setTimeout('flash();',33);
+}
+
+//-->
+</script>
+</head>
+<body background="../images/invader.gif" onload="flash();">
+</body>
+</html>

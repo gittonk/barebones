@@ -1,0 +1,33 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+
+function flash()
+{
+var colors=new Array('red','yellow','pink','green','orange','purple','blue');
+var ran=Math.round(Math.random()*6);
+var newcolor=colors[ran];
+document.bgColor=newcolor;
+setTimeout('flash();',33);
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+
+function O(href)
+{
+winZ=window.open(href+'.html','Z','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=' + screen.width + ',height=480');
+winZ.moveTo(0,0);
+}
+
+//-->
+</script>
+</head>
+<body onload="flash();" background="images/A.gif">
+<a href="#" onclick="parent.frames[0].location.href='V.html'; parent.frames[2].location.href='V.html'; return false;"><img src="../images/transparent.gif" width="100%" height="100%" alt=""></a>
+</body>
+</html>

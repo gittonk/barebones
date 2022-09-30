@@ -1,0 +1,69 @@
+/*   
+Theme Name: AONB
+Description: AONB theme
+Author: Rbot
+Author URI: http://tonk.org/
+Template: thematic
+Version: 1.0
+-
+Thematic is © Ian Stewart http://themeshaper.com/
+-
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+
+
+/* new header styles and bg image */
+
+#header {
+    z-index:2;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff url(http://tonk.org/AONB/img/AONB-blog-header-0.jpg) no-repeat;
+}
+
+#blog-title {
+   visibility: hidden;
+}
+
+#blog-description {
+   visibility: hidden;
+}
+
+#access {
+   visibility: hidden;
+}
+
+/* new text styles w Helvetica Neue black for posts/titles */
+
+body, input, textarea {
+    font:15px "Helvetica Neue",sans-serif;
+    line-height:22px;
+}
+
+.entry-title {
+    font-family:"Helvetica Neue",sans-serif;
+    font-size:26px;
+    font-weight:bold;
+    line-height:26px;
+    padding:0 0 7px 0;
+}

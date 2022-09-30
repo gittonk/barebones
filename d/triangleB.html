@@ -1,0 +1,39 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+
+var colors=new Array('red','yellow','pink','green','orange','purple','blue');
+
+function flash()
+{
+var ran=Math.round(Math.random()*6);
+var newcolor=colors[ran];
+document.bgColor=newcolor;
+setTimeout('flash();',666);
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+
+self.focus();
+var there=new Array('f02h.html','f02h.html');
+
+function GO()
+{
+var ranA=Math.round(Math.random()*1);
+var ranB=Math.round(Math.random()*1);
+parent.frames[0].location.href=there[ranA];
+parent.frames[2].location.href=there[ranB];
+}
+
+//-->
+</script>
+</head>
+<body marginwidth="0" marginheight="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" onload="flash();">
+<a href="#" onclick="GO(); return false;"><img src="images/triangleB.gif" width="100%" height="100%" border=0 alt=""></a>
+</body>
+</html>

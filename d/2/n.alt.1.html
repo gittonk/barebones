@@ -1,0 +1,52 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+
+function flash()
+{
+var colors=new Array('red','yellow','pink','green','orange','purple','blue');
+var ran=Math.round(Math.random()*6);
+var newcolor=colors[ran];
+document.bgColor=newcolor;
+setTimeout('flash();',111);
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+
+self.focus();
+
+function go()
+{
+var ranA=Math.round(Math.random()*parent.frames.length);
+var ranB=Math.round(Math.random()*3);
+if (ranA > 0) {
+ranA--;
+}
+parent.frames[ranA].location.href='n.alt.' + ranB + '.html';
+}
+
+//-->
+</script>
+</head>
+<body onload="flash();" marginwidth="0" marginheight="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+<table cellspacing=0 cellpadding=0 border=0 width="100%" height="100%">
+<tr><td align=center>
+
+<table cellspacing=0 cellpadding=0 border=0>
+
+<tr>
+<td><a href="../3/index.html" target="_top" onmouseover="go(); return true;"><img src="../images/n.a.B.gif" alt="" width="1024" height="384" border="0"></a></td>
+</tr>
+
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>
+

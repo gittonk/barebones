@@ -1,0 +1,49 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+
+function flash()
+{
+var colors=new Array('red','yellow','pink','green','orange','purple','blue');
+var ran=Math.round(Math.random()*6);
+var newcolor=colors[ran];
+document.bgColor=newcolor;
+setTimeout('flash();',720);
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!-- 
+var HEX= new Array(0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f');
+
+function hexen()
+{
+var i=Math.round(Math.random()*256);
+if (i == 0)
+return '00';
+else
+if (i > 255)
+return 'ff';
+else
+return '' + HEX[Math.floor(i/16)] + HEX[i%16];
+}
+
+var x='';
+
+function bg(x)
+{
+x = hexen(x);
+document.bgColor='#'+x+x+x;
+setTimeout('bg();',111);
+}
+
+//-->
+</script>
+</head>
+<body onload="flash();" bgcolor="#000000" marginwidth="0" marginheight="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+<img src="../img/D2BvJMPNK.gif" alt="" width=2170 height=3800 border=0>
+</body>
+</html>

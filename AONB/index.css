@@ -1,0 +1,18 @@
+/* AONB opener */
+
+#fullL {
+    min-height: 100%;
+    width: 50%; 
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+#fullR {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 -30px 0; /* the bottom margin is the negative value of the footer's height */
+    position: relative;
+}

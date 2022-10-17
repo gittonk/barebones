@@ -16,6 +16,9 @@ h3 {
 }
 
 a {
-	color: hotpink;
+	color: hotpink; 
 }
 
+.divider {
+	font-family: 'Inconsolata';
+}

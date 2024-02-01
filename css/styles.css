@@ -32,7 +32,16 @@ a {
 	border: dashed 2px black;
 }
 
+.magic {
+	padding-top: 23vh;
+	font-family: monospace;
+	font-size: 4rem;
+	background-color: greenyellow;
+}
+
+
 .nextlink {
 	padding-top: 10vh;
 	text-align: right;
 }
+

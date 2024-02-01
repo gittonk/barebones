@@ -46,7 +46,7 @@ a {
 
 /* MOBILE */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 	.magic {
 	padding-top: 13vh;

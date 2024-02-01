@@ -39,9 +39,20 @@ a {
 	background-color: greenyellow;
 }
 
-
 .nextlink {
 	padding-top: 10vh;
 	text-align: right;
 }
 
+/* MOBILE */
+
+@media (min-width: 768px) {
+
+	.magic {
+	padding-top: 13vh;
+	font-family: monospace;
+	font-size: 2rem;
+	background-color: greenyellow;
+}
+	
+}
